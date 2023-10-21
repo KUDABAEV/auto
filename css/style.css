@@ -1,0 +1,238 @@
+html,body {
+    font-family: 'Manrope', sans-serif;
+    color: #1E1B1B;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.button {
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 600;
+    padding: 16px 40px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    background: #FF6433;
+    white-space: nowrap;
+    transition: .3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+/********* Header *************/
+
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0 16.5px 0;
+}
+.header__top-inner span {
+    width: 1px;
+    height: 42px;
+    background: #939191;
+}
+.header__nav {
+    margin-left: auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+}
+
+.header__nav-item:last-child {
+    margin-right: 32px;
+}
+
+.header__nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all .3s;
+    white-space: nowrap;
+}
+
+.header__nav-link:hover {
+    color: #FF6433;
+}
+
+
+.header__btn-box {
+    padding: 0 0 0 86px;
+    position: relative;
+}
+
+.header__btn-box::before {
+    content: '';
+    background: url('./../images/icons/assistance-icon.svg') no-repeat;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: translateY(-50%);
+}
+
+.header__top-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.header__top-phone {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+
+.header__body {
+    flex-grow: 1;
+}
+
+.header__body-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: auto 0;
+}
+
+.header__title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 84px; /* 131.25% */
+    letter-spacing: -1.92px;
+    max-width: 624px;
+    margin-bottom: 32px;
+}
+
+.header__content-buttons {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.header__content-btn {
+    margin-right: 49px;
+}
+
+.header__play {
+    display: flex;
+    align-items: center;
+}
+
+.header__play svg {
+    margin-right: 8px;
+}
+
+.header__times {
+    position: relative;
+    padding-left: 45px;
+}
+
+.header__times::before {
+    content: '';
+    background: url('./../images/icons/watch-icon.svg');
+    position: absolute;
+    display: block;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.header__times-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #939191;
+}
+
+.header__times-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%; 
+}
+
+.header__content-right {
+    position: relative;
+}
+
+.header__content-right::before {
+    content: '';
+    position: absolute;
+    top: 67px;
+    left: -40px;
+    background: url('./../images/Service.png') no-repeat;
+    width: 307px;
+    height: 127px;
+}
+
+.header__rating {
+    position: absolute;
+    z-index: 5;
+    bottom: 70px;
+    right: -40px;
+    width: 306px;
+    height: 126px;
+    /* padding: 24px 38px; */
+    padding: 12px;
+    background-color:  rgba(225, 225, 225, 0.43);
+    border-radius: 59px;
+}
+
+.header__rating-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 59px;
+    background: #FFFFFF;
+}
+
+.header__rating-number {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; 
+    letter-spacing: -0.72px;
+}
+
+.header__rating-text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
+}
