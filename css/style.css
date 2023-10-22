@@ -34,6 +34,13 @@ html,body {
     transform: scale(1.05);
 }
 
+.title {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -1.74px;
+}
+
 /********* Header *************/
 
 .header {
@@ -235,4 +242,87 @@ html,body {
     font-weight: 500;
     line-height: 24px;
     opacity: 0.7;
+}
+
+/********* Offer *************/
+
+.offer {
+    padding: 132px 0 124px;
+    background: #F2F2F2;
+}
+
+.offer__subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.72px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.offer__title {
+    margin-left: 214px;
+    max-width: 858px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.offer__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 314px);
+    gap: 8px;
+    margin-bottom: 32px;
+}
+.offer__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 232px;
+    background-color: #FFFFFF;
+    transition: all .5s;
+    cursor: pointer;
+}
+.offer__item:hover:hover {
+    background-color: #FF6433;
+}
+
+.offer__item:hover svg{
+    color: #FFFFFF;
+}
+
+.offer__item:hover p {
+    color: #FFFFFF;
+}
+
+.offer__img {
+    width: 55px;
+    height: 50px;
+    color: #1E1B1B;
+}    
+
+
+.offer__text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.72px;
+}
+
+.offer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+    gap: 16px;
+    transition: all .5s;
+}
+
+.offer__btn:hover {
+    color: #FF6433
+    ;
 }
