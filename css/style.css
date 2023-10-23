@@ -407,4 +407,37 @@ html,body {
     opacity: 0.6;
 }
 
-/********* Follow *************/
+/********* Contact *************/
+
+.contact {
+    background-image: url('./../images/contact-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 502px;
+    margin-bottom: 210px;
+}
+
+.contact__body {
+    padding: 128px 0;
+    background-color: #FF6433;
+    max-width: 729px;
+    min-height: 502px;
+}
+
+.contact__title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -1.44px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    margin-left: 80px;
+    max-width: 569px;
+}
+
+.contact__btn {
+    background-color: #1E1B1B;
+    margin-left: 59px;
+}
