@@ -325,3 +325,86 @@ html,body {
 .offer__btn:hover {
     color: #FF6433;
 }
+
+
+/********* Follow *************/
+
+.follow {
+    padding: 138px 0 134px;
+}
+
+
+.follow__inner {
+    display: flex;
+    gap: 131px;
+}
+
+.follow__left {
+    max-width: 524px;
+}
+
+.follow__title {
+    margin-bottom: 16px;
+}
+
+.follow__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    opacity: 0.6;
+    margin-bottom: 32px;
+}
+
+.follow__item {
+    position: relative;
+    padding-top: 13px;
+    padding-left: 96px;
+    margin-bottom: 29px;
+    max-width: 432px;
+}
+
+.follow__item:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 159px;
+    background: url('./../images/follow-img1.svg') no-repeat;
+}
+
+.follow__item:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 159px;
+    background: url('./../images/follow-img2.svg') no-repeat;
+}
+.follow__item:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 72px;
+    background: url('./../images/follow-img3.svg') no-repeat;
+}
+.follow__item-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+    letter-spacing: -0.96px;
+    margin-bottom: 8px;
+}
+
+.follow__item-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+    opacity: 0.6;
+}
+
+/********* Follow *************/
