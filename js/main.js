@@ -22,5 +22,12 @@ $(function () {
     number.textContent = `${num}/5`
   }
 
+  let mixer = mixitup('.our-blog__items');
+
+    $('.our-blog__filter-btn').on('click', function () {
+      $('.our-blog__filter-btn').removeClass('our-blog__filter-btn--active')
+      $(this).addClass('our-blog__filter-btn--active')
+    })
+
 });
 
