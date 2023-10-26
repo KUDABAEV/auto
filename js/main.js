@@ -24,10 +24,27 @@ $(function () {
 
   let mixer = mixitup('.our-blog__items');
 
-    $('.our-blog__filter-btn').on('click', function () {
-      $('.our-blog__filter-btn').removeClass('our-blog__filter-btn--active')
-      $(this).addClass('our-blog__filter-btn--active')
-    })
+  $('.our-blog__filter-btn').on('click', function () {
+    $('.our-blog__filter-btn').removeClass('our-blog__filter-btn--active')
+    $(this).addClass('our-blog__filter-btn--active')
+  })
+  
+  $('.customers__slider').slick({
+    arrows: false,
+    slidesToShow: 2,
+    infinity: true,
+    draggable: false,
+    appendArrows: $('.customers__slider-arrows'),
+  })
 
+  $('.customers__slider-prev').on('click', function(e) {
+    e.preventDefault();
+    $('.customers__slider').slick('slickPrev')
+  })
+
+  $('.customers__slider-next').on('click', function(e) {
+    e.preventDefault();
+    $('.customers__slider').slick('slickNext')
+  })
 });
 
