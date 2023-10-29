@@ -648,6 +648,48 @@ html,body {
     margin-right: 24px;
 }
 
+/* customers__dots */
+
+.customers__dots .slick-dots{
+    position: absolute;
+    bottom: 7px;
+    left: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers__dots li {
+    margin-right: 15px;
+}
+
+.customers__dots li:last-child {
+    margin-right: 0;
+}
+
+
+.customers__dots button {
+    font-size: 0;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.customers__dots button::before {
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: #939191;
+}
+
+.customers__dots .slick-active button::before {
+    background-color: #FF6433;
+    transition: all .3s;
+}
+
 
 /********* Brands *************/
 

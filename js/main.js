@@ -32,9 +32,11 @@ $(function () {
   $('.customers__slider').slick({
     arrows: false,
     slidesToShow: 2,
+    dots: true,
     infinity: true,
     draggable: false,
     appendArrows: $('.customers__slider-arrows'),
+    appendDots: $('.customers__dots'),
   })
 
   $('.customers__slider-prev').on('click', function(e) {
