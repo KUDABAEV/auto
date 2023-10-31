@@ -48,5 +48,24 @@ $(function () {
     e.preventDefault();
     $('.customers__slider').slick('slickNext')
   })
+
+  // $('.accordion__item').on('click', function(e) {
+  //   e.preventDefault();
+  //   if ($(this).hasClass('accordion__item--active')) {
+  //     $(this).removeClass('accordion__item--active')
+  //     $(this).children('.accordion__item-main').slideUp()
+  //   } else {
+  //     $('.program__acc-link').removeClass('accordion__item--active')
+  //     $('.accordion__item-main').slideUp()
+  //     $(this).addClass('accordion__item--active')
+  //     $(this).children('.accordion__item-main').slideDown()
+  //   }
+  // })
+
+  $('.accordion__item').on('click', function(e) {
+    e.preventDefault();
+    $(this).toggleClass('accordion__item--active');
+    $(this).children('.accordion__item-main').slideToggle()
+  })
 });
 
