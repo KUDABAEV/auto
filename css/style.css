@@ -425,7 +425,6 @@ html, body {
     background-size: cover;
     background-position: center;
     min-height: 502px;
-    margin-bottom: 210px;
 }
 
 .contact__body {
@@ -452,7 +451,42 @@ html, body {
     margin-left: 59px;
 }
 
+/********* Numbers *************/
 
+.numbers {
+    background-color: #F2F2F2;
+    padding: 48px 0;
+}
+
+.numbers__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers__item {
+    margin-right: 10px;
+}
+
+.numbers__item:last-child {
+    margin-right: 0;
+}
+
+.numbers__item-number {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -1.74px;
+    color: #661CE7;
+    margin-bottom: 2px;
+}
+
+.numbers__item-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.72px;
+    opacity: 0.7;
+}
 
 /********* Our blog *************/
 
