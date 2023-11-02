@@ -920,3 +920,71 @@ html, body {
     letter-spacing: -0.72px;
     color: #FFFFFF;
 }
+
+
+/********* Experts *************/
+
+.experts {
+    padding: 121px 0 178px;
+}
+
+.experts__title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 84px; /* 131.25% */
+    letter-spacing: -1.92px;
+    max-width: 505px;
+    margin-bottom: 48px;
+}
+
+.experts__content {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.experts__form-box {
+    flex: 0 1 624px;
+    margin-right: 141px;
+}
+
+
+.experts__form-input {
+    display: block;
+    padding: 23px 40px;
+    border-radius: 2px;
+    background-color: #F2F2F2;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.experts__form-input::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1E1B1B;
+}
+
+.experts__info-item {
+    margin-bottom: 32px;
+}
+
+.experts__info-item:last-child {
+    margin-bottom: 0;
+}
+
+.experts__info-top {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 2px;
+}
+
+.experts__info-address,
+.experts__info-mail,
+.experts__info-hours {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.72px;
+}
