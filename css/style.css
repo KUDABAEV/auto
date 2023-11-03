@@ -1006,3 +1006,47 @@ html, body {
     min-height: 448px;
     background: url('./../images/background.png') center/cover no-repeat;
 }
+
+/********* Footer *************/
+
+.footer {
+    background-color: #1E1B1B;
+    padding: 66px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav-list {
+    display: flex;
+}
+
+.footer__nav-item {
+    margin-right: 40px;
+}
+
+.footer__nav-item:last-child {
+    margin-right: 0;
+}
+
+.footer__nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: all .3s;
+}
+
+.footer__nav-link:hover {
+    opacity: 0.7;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #939191;
+}
