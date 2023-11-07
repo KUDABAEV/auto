@@ -16,6 +16,28 @@ html, body {
     height: 100%;
 }
 
+.burger {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.349);
+    z-index: 50;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.overlay--show {
+    opacity: 1;
+    visibility: visible;
+}
+
 .button {
     display: inline-block;
     letter-spacing: 0.5px;

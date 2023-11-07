@@ -1,0 +1,125 @@
+@media (max-width: 951px) {
+    .burger {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 150;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+        background-color: transparent;
+    }
+
+    .burger.active span {
+        position: relative;
+        transform: rotate(45deg);
+        top: 7px;
+    }
+
+    .burger.active::before {
+        transform: scale(0);
+        
+    }
+    .burger.active::after {
+        transform: rotate(-45deg);
+        top: 20px;
+    }
+
+    .burger--follow {
+        top: 15px;
+        right: 15px;
+        box-shadow: 0 1px 8px #a1a1a1;
+        background-color: #fff;
+    }
+
+    .burger span {
+        display: block;
+        height: 4px;
+        width: 30px;
+        background-color: #424551;
+        border-radius: 3px;
+        margin: 4px 0;
+    }
+
+    .burger::before,
+    .burger::after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: #424551;
+        border-radius: 3px; 
+    }
+
+    .header {
+        padding-top: 90px;
+    }
+
+    .header__top {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #FFFFFF;
+        z-index: 100;
+        min-width: 320px;
+        transform: translateX(100%);
+        transition: all .3s;
+    }
+
+    .header__top--open {
+        transform: translateX(0%);
+    }
+
+
+    .header__top-inner {
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+
+    .header__logo {
+        margin: 0 0 30px 0;
+    }
+
+    .header__top-inner span {
+        display: none;
+    }
+
+    .header__nav {
+        text-align: center;
+        margin: 0 auto;
+        flex-grow: 1;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .header__nav-item {
+        margin: 0;
+    }
+    .header__nav-item:last-child {
+        margin: 0;
+    }
+
+    .header__nav-link {
+        padding: 5px;
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__top {
+        min-width: 100%;
+        left: 0;
+    }
+}
