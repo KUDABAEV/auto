@@ -66,7 +66,7 @@ html, body {
 /********* Header *************/
 
 .header {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -112,7 +112,6 @@ html, body {
     color: #FF6433;
 }
 
-
 .header__btn-box {
     padding: 0 0 0 86px;
     position: relative;
@@ -154,13 +153,13 @@ html, body {
     align-items: center;
     height: 100%;
     margin: auto 0;
+    padding-bottom: 40px;
 }
 
 .header__title {
     font-size: 64px;
     font-weight: 800;
     line-height: 84px;
-    /* 131.25% */
     letter-spacing: -1.92px;
     max-width: 624px;
     margin-bottom: 32px;
@@ -237,7 +236,6 @@ html, body {
     right: -40px;
     width: 306px;
     height: 126px;
-    /* padding: 24px 38px; */
     padding: 12px;
     background-color: rgba(225, 225, 225, 0.43);
     border-radius: 59px;
