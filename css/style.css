@@ -154,6 +154,7 @@ html, body {
     height: 100%;
     margin: auto 0;
     padding-bottom: 40px;
+    padding-top: 80px;
 }
 
 .header__title {
@@ -424,7 +425,6 @@ html, body {
     font-size: 32px;
     font-weight: 700;
     line-height: 48px;
-    /* 150% */
     letter-spacing: -0.96px;
     margin-bottom: 8px;
 }
