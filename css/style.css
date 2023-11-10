@@ -278,14 +278,13 @@ html, body {
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
-    /* 150% */
     letter-spacing: -0.72px;
     text-align: center;
     margin-bottom: 8px;
 }
 
 .offer__title {
-    margin-left: 214px;
+    margin: 0 auto;
     max-width: 858px;
     text-align: center;
     margin-bottom: 64px;
