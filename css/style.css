@@ -614,7 +614,7 @@ html, body {
     text-align: center;
     max-width: 909px;
     margin-left: 185px;
-    margin-bottom: 76px;
+    margin: 0 auto 76px;
 }
 
 .customers__slider-wrapper {

@@ -51,6 +51,14 @@ $(function () {
     draggable: false,
     appendArrows: $('.customers__slider-arrows'),
     appendDots: $('.customers__dots'),
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ]
   })
 
   $('.customers__slider-prev').on('click', function(e) {
@@ -63,23 +71,9 @@ $(function () {
     $('.customers__slider').slick('slickNext')
   })
 
-  // $('.accordion__item').on('click', function(e) {
-  //   e.preventDefault();
-  //   if ($(this).hasClass('accordion__item--active')) {
-  //     $(this).removeClass('accordion__item--active')
-  //     $(this).children('.accordion__item-main').slideUp()
-  //   } else {
-  //     $('.program__acc-link').removeClass('accordion__item--active')
-  //     $('.accordion__item-main').slideUp()
-  //     $(this).addClass('accordion__item--active')
-  //     $(this).children('.accordion__item-main').slideDown()
-  //   }
-  // })
-
   $('.accordion__item').on('click', function(e) {
     e.preventDefault();
     $(this).toggleClass('accordion__item--active');
     $(this).children('.accordion__item-main').slideToggle()
   })
 });
-
