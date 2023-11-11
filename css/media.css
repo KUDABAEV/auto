@@ -178,6 +178,13 @@
     }
 }
 
+@media (max-width: 850px) {
+    .numbers__items {
+        flex-wrap: wrap;
+        gap: 20px;    
+    }
+}
+
 @media (max-width: 800px) {
     .offer {
         padding: 70px 0;
@@ -222,6 +229,17 @@
     }
     .follow__item-text {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 470px) {
+    .numbers__items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .numbers__item {
+        margin-left: 90px;
     }
 }
 

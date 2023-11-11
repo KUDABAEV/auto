@@ -480,6 +480,7 @@ html, body {
 .numbers__items {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .numbers__item {
