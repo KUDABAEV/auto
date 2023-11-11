@@ -175,7 +175,8 @@
     .contact__title,
     .our-blog__title,
     .customers__title,
-    .brands__title {
+    .brands__title,
+    .accordion__title {
         font-size: 38px;
         line-height: 56px;
     }
@@ -250,6 +251,9 @@
     .brands__items {
         grid-template: repeat(4, auto) / repeat(3, 1fr);
     }
+    .accordion {
+        padding: 70px 0;
+    }
 
 }
 
@@ -275,7 +279,8 @@
     .contact__title,
     .our-blog__title,
     .customers__title,
-    .brands__title  {
+    .brands__title,
+    .accordion__title  {
         font-size: 28px;
         line-height: 46px;
     }
@@ -296,6 +301,25 @@
     .our-blog__link-text {
         font-size: 14px;
         line-height: 26px;
+    }
+    .accordion__title {
+        margin-bottom: 40px;
+    }
+    .accordion__head-inner {
+        padding: 20px;
+    }
+    .accordion__item-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .accordion__item-text {
+        font-size: 14px;
+    }
+    .accordion__item-main {
+        padding: 16px 20px 20px;
+    }
+    .accordion__item--active .accordion__head-inner::after {
+        padding-top: 11px;
     }
 }
 
@@ -340,6 +364,19 @@
     }
     .header__times-text {
         font-size: 16px;
+    }
+    .accordion__head-inner::after {
+        width: 41px;
+        height: 38px;
+        padding: 10px 12px;
+    }
+    .accordion__item--active .accordion__head-inner::after {
+        width: 41px;
+        height: 38px;
+        padding-top: 5.6px;
+    }
+    .accordion__item-title {
+        margin-right: 10px;
     }
 }
 

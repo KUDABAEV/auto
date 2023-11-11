@@ -817,7 +817,7 @@ html, body {
     content: url('./../images/Minus.svg');
     width: 51px;
     height: 48px;
-    padding-top: 10.5px;
+    padding-top: 11px;
 }
 
 .accordion__item-link {
@@ -831,8 +831,6 @@ html, body {
 .accordion__item-head {
     cursor: pointer;
 }
-
-
 
 .accordion__head-inner {
     display: flex;
