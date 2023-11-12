@@ -952,7 +952,7 @@ html, body {
 .experts__title {
     font-size: 64px;
     font-weight: 800;
-    line-height: 84px; /* 131.25% */
+    line-height: 84px;
     letter-spacing: -1.92px;
     max-width: 505px;
     margin-bottom: 48px;
@@ -960,14 +960,12 @@ html, body {
 
 .experts__content {
     display: flex;
-    margin-bottom: 48px;
 }
 
 .experts__form-box {
     flex: 0 1 624px;
     margin-right: 141px;
 }
-
 
 .experts__form-input {
     display: block;
@@ -1006,7 +1004,7 @@ html, body {
 .experts__info-hours {
     font-size: 24px;
     font-weight: 600;
-    line-height: 36px; /* 150% */
+    line-height: 36px;
     letter-spacing: -0.72px;
 }
 
@@ -1014,6 +1012,10 @@ html, body {
     height: 512px;
     width: 100%;
     box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.experts__btn {
+    margin-top: 48px;
 }
 
 /********* Map-background *************/
