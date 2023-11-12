@@ -76,4 +76,11 @@ $(function () {
     $(this).toggleClass('accordion__item--active');
     $(this).children('.accordion__item-main').slideToggle()
   })
+
+  $(".header__nav-list a").on("click", function (e) {
+    e.preventDefault()
+    var id = $(this).attr('href'),
+      top = $(id).offset().top
+    $('body,html').animate({ scrollTop: top }, 800)
+  })
 });

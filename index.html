@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -35,19 +36,19 @@
                         <nav class="header__nav">
                             <ul class="header__nav-list">
                                 <li class="header__nav-item">
-                                    <a class="header__nav-link" href="#">Home</a>
+                                    <a class="header__nav-link" href="#home">Home</a>
                                 </li>
                                 <li class="header__nav-item">
-                                    <a class="header__nav-link" href="#">About us</a>
+                                    <a class="header__nav-link" href="#about">About us</a>
                                 </li>
                                 <li class="header__nav-item">
-                                    <a class="header__nav-link" href="#">Services</a>
+                                    <a class="header__nav-link" href="#services">Services</a>
                                 </li>
                                 <li class="header__nav-item">
-                                    <a class="header__nav-link" href="#">Blog</a>
+                                    <a class="header__nav-link" href="#blog">Blog</a>
                                 </li>
                                 <li class="header__nav-item">
-                                    <a class="header__nav-link" href="#">Contact</a>
+                                    <a class="header__nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -63,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="header__body">
+            <div class="header__body" id="home">
                 <div class="container">
                     <div class="header__body-inner">
 
@@ -75,7 +76,7 @@
 
                                 <a class="header__content-btn button" href="#">Book a service</a>
 
-                                <a class="header__play" href="#">
+                                <a class="header__play" href="https://www.youtube.com/watch?v=0k5hLUt7lv0" data-fancybox>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g filter="url(#filter0_b_703_93)">
@@ -128,7 +129,7 @@
         </header>
 
         <main class="main">
-            <section class="offer">
+            <section class="offer" id="services">
                 <div class="container">
                     <div class="offer__inner">
 
@@ -250,7 +251,7 @@
                 </div>
             </section>
 
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="container">
                     <div class="contact__inner">
                         <div class="contact__body">
@@ -348,7 +349,7 @@
                 </div>
             </section>
 
-            <section class="our-blog">
+            <section class="our-blog" id="blog">
                 <div class="container">
                     <div class="our-blog__inner">
                         <h2 class="our-blog__title title">Our blog</h2>
@@ -851,7 +852,7 @@
 
             </section>
 
-            <section class="info">
+            <section class="info" id="about">
                 <div class="container">
                     <div class="info__inner">
                         <div class="info__left">
@@ -926,7 +927,7 @@
                                 <a class="footer__nav-link" href="#">Home</a>
                             </li>
                             <li class="footer__nav-item">
-                                <a class="footer__nav-link" href="#">About us</a>
+                                <a class="footer__nav-link" href="#about">About us</a>
                             </li>
                             <li class="footer__nav-item">
                                 <a class="footer__nav-link" href="#">Services</a>
@@ -949,6 +950,7 @@
     </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
 <script src="./js/mixitup.min.js"></script>
